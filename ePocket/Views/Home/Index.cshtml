@@ -1,29 +1,147 @@
 ﻿@{
     ViewData["Title"] = "Home";
 }
-
-<div class="container">
-    <span class="slider" id="slider1"></span>
-    <span class="slider" id="slider2"></span>
-    <span class="slider" id="slider3"></span>
-    <span class="slider" id="slider4"></span>
-
-    <div class="slider-wrapper">
-        <div class="slider">
-
-            <img src="~/images/slide_5.png" alt="" id="slide-1" />
-            <img src="~/images/slide_1.png" alt="" id="slide-2" />
-            <img src="~/images/slide_2.png" alt="" id="slide-3" />
-        </div>
-
-            <div class="#slider-nav">
-
-                    <a href="#slide-1" class="button" id="button1"></a>
-
-                    <a href="#slide-2" class="button" id="button2"></a>
-
-                    <a href="#slide-3" class="button" id="button3"></a>
+<html>
+<head>
+</head>
+<body>
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" style="border: 0.5px solid #808080; height:5px; width:20px; margin:2px;" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" style="border: 0.5px solid #808080; height:5px; width:20px; margin:2px" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" style="border: 0.5px solid #808080; height:5px; width:20px; margin:2px" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" style="border: 0.5px solid #808080; height:5px; width:20px; margin:2px" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" style="border: 0.5px solid #808080; height:5px; width:20px; margin:2px" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
             </div>
-        
-    </div>
-</div>
+            <div class="carousel-inner" style="margin-left:350px; margin-right:100px; width:1000px; height:500px;">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="cl-md-6" style="max-width:50%; flex: 0 0 50%; margin-top:100px">
+                                <div class="d-none d-lg-block" style="color:green">
+                                    <h1>ePocket Wins "Best Digital Wallet Award 2024"</h1>
+                                    <p style="font-size:28px">These wins are a tribute to our clients continued trust and confidence in ePocket.</p>
+                                    <a class="btn btn-stndrd d-loginSignUp-btn waves-effect waves-light" href="#">Learn more</a>
+                                </div>
+                            </div>
+                            <div class="cl-md-6" style="max-width:100%; flex: 0 0 50%; margin-top:70px">
+                                <picture>
+                                    <img src="~/images/slide_5.png" class="d-block w-100" alt="...">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="cl-md-6" style="max-width:50%; flex: 0 0 50%; margin-top:100px">
+                                <div class="d-none d-lg-block" style="color:green">
+                                    <h1>ePocket Wins "Best Digital Wallet Award 2024"</h1>
+                                    <p style="font-size:28px">These wins are a tribute to our clients continued trust and confidence in ePocket.</p>
+                                    <a class="btn btn-stndrd d-loginSignUp-btn waves-effect waves-light" href="#">Learn more</a>
+                                </div>
+                            </div>
+                            <div class="cl-md-6" style="max-width:100%; flex: 0 0 50%; margin-top:70px">
+                                <picture>
+                                    <img src="~/images/slide_1.png" class="d-block w-100" alt="...">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="cl-md-6" style="max-width:50%; flex: 0 0 50%; margin-top:100px">
+                                <div class="d-none d-lg-block" style="color:green">
+                                    <h1>ePocket Wins "Best Digital Wallet Award 2024"</h1>
+                                    <p style="font-size:28px">These wins are a tribute to our clients continued trust and confidence in ePocket.</p>
+                                    <a class="btn btn-stndrd d-loginSignUp-btn waves-effect waves-light" href="#">Learn more</a>
+                                </div>
+                            </div>
+                            <div class="cl-md-6" style="max-width:100%; flex: 0 0 50%; margin-top:70px">
+                                <picture>
+                                    <img src="~/images/slide_2.png" class="d-block w-100" alt="...">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="cl-md-6" style="max-width:50%; flex: 0 0 50%; margin-top:100px">
+                                <div class="d-none d-lg-block" style="color:green">
+                                    <h1>ePocket Wins "Best Digital Wallet Award 2024"</h1>
+                                    <p style="font-size:28px">These wins are a tribute to our clients continued trust and confidence in ePocket.</p>
+                                    <a class="btn btn-stndrd d-loginSignUp-btn waves-effect waves-light" href="#">Learn more</a>
+                                </div>
+                            </div>
+                            <div class="cl-md-6" style="max-width:100%; flex: 0 0 50%; margin-top:70px">
+                                <picture>
+                                    <img src="~/images/slide_3.png" class="d-block w-100" alt="...">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="cl-md-6" style="max-width:50%; flex: 0 0 50%; margin-top:100px">
+                                <div class="d-none d-lg-block" style="color:green">
+                                    <h1>ePocket Wins "Best Digital Wallet Award 2024"</h1>
+                                    <p style="font-size:28px">These wins are a tribute to our clients continued trust and confidence in ePocket.</p>
+                                    <a class="btn btn-stndrd d-loginSignUp-btn waves-effect waves-light" href="#">Learn more</a>
+                                </div>
+                            </div>
+                            <div class="cl-md-6" style="max-width:100%; flex: 0 0 50%; margin-top:70px">
+                                <picture>
+                                    <img src="~/images/slide_4.png" class="d-block w-100" alt="...">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div style="color:green; margin-top:200px">
+                        <h1 class="color-green border-b wow fadeInUp" style="font-weight:bold; visibility:visible; animation-name: fadeInUp; animation-iteration-count:1; animation-duration:0.5s;">Banking On The Go</h1>
+                        <p style="font-size:32px; visibility:visible; animation-name: fadeInUp; animation-iteration-count:2; animation-duration:1s;">Elevate your Banking experience with the best digital banking system in the world, the Digital Wallet ePocket!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div style="color:green; margin:300px; text-align: center">
+            <h1 style="font-weight:bold">We Have Got You Covered</h1>
+            <p style="font-size:32px">News</p>
+            <p style="font-size:32px">Awards and Achivements</p>
+            <p style="font-size:32px">Ask Us</p>
+            <p style="font-size:32px">Provide FeedBack</p>
+            <p style="font-size:32px">Complaint Registration</p>
+        </div>
+    </section>
+    <style>
+
+        /* Default button color */
+        .carousel-indicators button {
+            background-color: transparent;
+        }
+
+        /* Active button color */
+        .carousel-indicators .active {
+            background-color: green;
+            border-radius: 5px;
+        }
+    </style>
+</body>
+</html>
