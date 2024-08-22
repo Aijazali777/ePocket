@@ -68,7 +68,7 @@ using ePocket.Models;
             WriteLiteral("<html>\r\n");
             EndContext();
             BeginContext(48, 15, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb1cb96f1a4d45be87a08b9a0cac23ea", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b4e161d3bc96493c9d2ec0aceabdc491", async() => {
                 BeginContext(54, 2, true);
                 WriteLiteral("\r\n");
                 EndContext();
@@ -88,7 +88,7 @@ using ePocket.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(65, 8918, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8232da23124d4b5799734d6bfea68717", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "53b38fd221b446ea95afebd3e6e420bd", async() => {
                 BeginContext(71, 2303, true);
                 WriteLiteral(@"
     <section>
@@ -114,7 +114,7 @@ using ePocket.Models;
                 WriteLiteral("            </div>\r\n                            </div>\r\n                            <div class=\"cl-md-6\" style=\"max-width:100%; flex: 0 0 50%; margin-top:70px; height:600px\">\r\n                                <picture>\r\n                                    ");
                 EndContext();
                 BeginContext(2374, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8d83d3445c05424f84242856d2d668a1", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "de1c0937d8404c25b30427419284c474", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -152,7 +152,7 @@ using ePocket.Models;
                 WriteLiteral("                <picture>\r\n                                    ");
                 EndContext();
                 BeginContext(3525, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "30a27702f1764919ba784852b34e7407", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "1c2f89aafe4e4d378df3be6d387b5ff0", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -189,7 +189,7 @@ using ePocket.Models;
                 WriteLiteral("gin-top:70px; height:600px\">\r\n                                <picture>\r\n                                    ");
                 EndContext();
                 BeginContext(4722, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "15908a8468f74eb28088ae77236bb922", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "12b2c34d0b694ffc880dc527da2c2d61", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -226,7 +226,7 @@ using ePocket.Models;
                 WriteLiteral("50%; margin-top:70px; height:600px\">\r\n                                <picture>\r\n                                    ");
                 EndContext();
                 BeginContext(5927, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "69c4fde89bb4415bafd7faf127997f19", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "6c1d12c1fa9440e3a2712649cfaa911a", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -263,7 +263,7 @@ using ePocket.Models;
                 WriteLiteral("70px; height:600px\">\r\n                                <picture>\r\n                                    ");
                 EndContext();
                 BeginContext(7116, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "63bf6bf8e7164640b004e59198d79ad1", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "4dff13cf48484fdbb291a14be2071e0d", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
