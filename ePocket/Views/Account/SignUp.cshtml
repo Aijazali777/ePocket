@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "SignUp";
+}
+
+<div class="d-flex justify-content-center align-items-baseline" style="margin-top:30px; margin-bottom:100px">
+    <div class="card shadow-sm col-3" style="border: 1px solid green; border-radius: 10px; height:650px">
+        <div class="card-body p-4">
+            <h3 class="card-title text-center mb-4" style="color: #2c3e50;">SignUp</h3>
+            <form method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <input  class="form-control" placeholder="Enter Name" />
+                </div>
+                <div class="form-group">
+                    <input class="form-control" placeholder="Enter Email" />
+                </div>
+                <div class="form-group">
+                    <input  class="form-control" placeholder="Enter Password" />
+                </div>
+                <div class="form-group">
+                    <input  class="form-control" placeholder="Confirm Password" />
+                </div>
+                <div class="form-group">
+                    <select class="form-control"><option value="">Select a Gender</option></select>
+                </div>
+                <div class="form-group">
+                    <input  class="form-control" placeholder="Enter Address" />
+                </div>
+                <div class="form-group">
+                    <input id="phone"  maxlength="13" class="form-control" /> <br />
+                </div>
+                <div class="form-group">
+                    <select id="country" class="form-control"></select>
+                </div>
+                <div class="form-group">
+                    <select id="city" class="form-control" placeholder="Enter City"></select>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-stndrd d-loginSignUp-btn waves-effect waves-light">SignUp</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
