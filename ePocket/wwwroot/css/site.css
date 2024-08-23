@@ -44,3 +44,29 @@
 .style-marquee {
     background-color: #197056;
 }
+
+.card {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #006400; /* Dark green color for the heading */
+}
+
+.card input[type="text"],
+.card input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
