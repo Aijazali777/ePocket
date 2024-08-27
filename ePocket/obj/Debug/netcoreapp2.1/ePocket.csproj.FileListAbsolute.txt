@@ -29,3 +29,4 @@ C:\Users\aaijaz\source\repos\ePocket\ePocket\obj\Debug\netcoreapp2.1\ePocket.pdb
 C:\Users\aaijaz\source\repos\ePocket\ePocket\obj\Debug\netcoreapp2.1\ePocket.csproj.CopyComplete
 C:\Users\aaijaz\source\repos\ePocket\ePocket\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
 C:\Users\aaijaz\source\repos\ePocket\ePocket\obj\Debug\netcoreapp2.1\Razor\Views\Account\SignUp.g.cshtml.cs
+C:\Users\aaijaz\source\repos\ePocket\ePocket\obj\Debug\netcoreapp2.1\Razor\Views\Account\Profile.g.cshtml.cs
